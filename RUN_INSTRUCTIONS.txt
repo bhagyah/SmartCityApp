@@ -1,0 +1,131 @@
+====================================================
+STEP-BY-STEP INSTRUCTIONS TO RUN THE APPLICATION
+Student: 22UG1-0938 E.K.B.H.JAYARATHNA
+====================================================
+
+OPTION 1: RUN GUI VERSION (RECOMMENDED)
+=========================================
+
+Step 1: Navigate to SmartCityApp folder
+   - Go to: "C:\Users\BHAGYA\Desktop\New folder (2)\SmartCityApp"
+
+Step 2: Run the GUI application
+   - Double-click: run_gui.bat
+   - OR open terminal and run: run_gui.bat
+
+Step 3: The GUI will open automatically
+   - Click any module button to start
+   - Use "Back to Main Menu" to navigate
+
+====================================================
+
+OPTION 2: RUN CONSOLE VERSION
+================================
+
+Step 1: Navigate to SmartCityApp\src folder
+   - Go to: "C:\Users\BHAGYA\Desktop\New folder (2)\SmartCityApp\src"
+
+Step 2: Compile the Java files
+   - Run: compile_and_run.bat
+   - Or manually compile:
+     "C:\Users\BHAGYA\.vscode\extensions\redhat.java-1.53.0-win32-x64\jre\21.0.10-win32-x86_64\bin\javac.exe" SmartCityApplication.java module1\*.java module2\*.java module3\*.java
+
+Step 3: Run the application
+   - Run: SmartCityApplication
+   - Or manually run:
+     "C:\Users\BHAGYA\.vscode\extensions\redhat.java-1.53.0-win32-x64\jre\21.0.10-win32-x86_64\bin\java.exe" SmartCityApplication
+
+Step 4: Interact with menu
+   - Type number (1, 2, 3, 4, or 0) and press Enter
+
+====================================================
+
+IF YOU DON'T HAVE JAVA INSTALLED
+==================================
+
+The application uses Java from VS Code extension:
+   Path: C:\Users\BHAGYA\.vscode\extensions\redhat.java-1.53.0-win32-x64\jre\21.0.10-win32-x86_64\bin\java.exe
+
+If that doesn't work, install JDK:
+1. Download from: https://www.oracle.com/java/technologies/downloads/
+2. Install Java JDK 17 or 21
+3. Add Java to PATH:
+   - System Properties → Environment Variables → Path
+   - Add: C:\Program Files\Java\jdk-21\bin
+
+====================================================
+
+TROUBLESHOOTING
+=================
+
+Issue: "javac is not recognized"
+Solution: Use full path to javac.exe as shown above
+
+Issue: GUI doesn't open
+Solution: Ensure you're using the correct Java path, or install JDK
+
+Issue: Application runs but no text displays
+Solution: The terminal might not support Unicode - this is normal
+
+====================================================
+
+APPLICATION FEATURES SUMMARY
+============================
+
+MODULE 1: Smart City Route Planner
+- Add/Remove locations and roads
+- Display all connections (graph visualization)
+- BST In-Order traversal (sorted locations)
+- BST Tree structure display
+- BFS Traversal (Queue-based)
+- DFS Traversal (Stack-based)
+- Shortest path finding (BFS-based)
+
+MODULE 2: Data Sorter
+- Manual data entry (comma-separated numbers)
+- Random data generation
+- Bubble Sort implementation
+- Merge Sort implementation  
+- Quick Sort implementation
+- Performance comparison table
+
+MODULE 3: Algorithm Performance Analyzer
+- Linear Search analysis
+- Binary Search analysis
+- Bubble/Merge/Quick Sort analysis
+- Multiple input sizes (100, 500, 1000, 2000, 5000)
+- Full performance report
+- Time complexity summary
+
+====================================================
+
+FILE STRUCTURE
+===============
+
+SmartCityApp/
+├── src/
+│   ├── SmartCityApplication.java     (Console entry)
+│   ├── gui/
+│   │   ├── MainGUI.java            (GUI main window)
+│   │   ├── RoutePlannerGUI.java   (Module 1 GUI)
+│   │   ├── DataSorterGUI.java     (Module 2 GUI)
+│   │   └── PerformanceAnalyzerGUI.java (Module 3 GUI)
+│   ├── module1/
+│   │   ├── BSTLocation.java       (Binary Search Tree)
+│   │   ├── CityGraph.java         (Graph implementation)
+│   │   └── RoutePlannerMenu.java (Console menu)
+│   ├── module2/
+│   │   ├── SortingAlgorithms.java (Sort algorithms)
+│   │   └── DataSorterMenu.java   (Console menu)
+│   └── module3/
+│       ├── SearchingAlgorithms.java (Search algorithms)
+│       └── PerformanceAnalyzerMenu.java (Console menu)
+├── run_gui.bat                     (Launch GUI)
+├── compile_and_run.bat             (Launch Console)
+├── README.md                       (Documentation)
+├── DEMO_VIDEO_SCRIPT.txt          (Video script)
+└── RUN_INSTRUCTIONS.txt            (This file)
+
+====================================================
+
+For any issues, check that Java is properly installed and PATH is set.
