@@ -102,17 +102,9 @@ java SmartCityApplication
 | DFS | O(V + E) | Stack |
 | Shortest Path (BFS) | O(V + E) | Queue + Stack |
 
-## 📝 Assessment Criteria
-
-| Component | Marks |
-|-----------|-------|
-| Correct implementation of data structures & algorithms | 30% |
-| Algorithm performance measurement & analysis | 25% |
-| Code quality, structure & validation | 20% |
-| Team collaboration & GitHub usage | 15% |
-| Demo video & explanation | 10% |
 
 ## 📜 License
 
 This project is developed for academic purposes as part of the Data Structures & Algorithms course.
+
 
