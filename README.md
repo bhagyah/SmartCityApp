@@ -69,14 +69,6 @@ java SmartCityApplication
 2. Set `src` as the source root
 3. Run `SmartCityApplication.java`
 
-## 👥 Team Members & Responsibilities
-
-| Member | Responsibilities |
-|--------|-----------------|
-| **Member 1** | Graph implementation, location/road management, traversal logic (BFS/DFS) |
-| **Member 2** | Sorting algorithms (Bubble/Merge/Quick), performance measurement, comparison tables |
-| **Member 3** | Searching algorithms (Linear/Binary), BST data organization, integration & testing |
-
 ## 📊 Data Structures Used
 
 | Data Structure | Usage |
@@ -123,3 +115,4 @@ java SmartCityApplication
 ## 📜 License
 
 This project is developed for academic purposes as part of the Data Structures & Algorithms course.
+
